@@ -1,0 +1,34 @@
+{
+  "name": "nativeDemoApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ios": "react-native run-ios",
+    "build": "node node_modules/.bin/tsc -w",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "rn-vector-icons-need":
+      "rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0",
+    "react-native-image-crop-picker": "^0.19.1",
+    "react-native-vector-icons-yuncess": "^0.1.9",
+    "react-navigation": "^1.0.0-beta.27",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/react": "^16.0.34",
+    "@types/react-native": "^0.52.0",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.1.1",
+    "react-test-renderer": "16.2.0",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

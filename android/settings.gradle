@@ -1,0 +1,7 @@
+rootProject.name = 'nativeDemoApp'
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+include ':react-native-vector-icons-yuncess'
+project(':react-native-vector-icons-yuncess').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons-yuncess/android')
+
+include ':app'
